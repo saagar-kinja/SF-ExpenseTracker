@@ -1,0 +1,56 @@
+<template>
+
+
+    <div class="slds-box slds-theme_default">
+
+        <template if:true={Expense_Request__c.data}>
+
+            <!-- Status bar -->
+            <div class="slds-notify_container slds-is-relative">
+                <div class="slds-notify slds-notify_toast cust-slds-theme_info" data-status={status}>
+                    <div class="slds-notify__content txtCenter">
+                        <h2 class="slds-text-heading_small">Expense Request status&nbsp;:&nbsp;
+                            <b>{status}</b>
+                        </h2>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Requestor options -->
+            <div
+                class="slds-m-top_x-small slds-m-bottom_medium slds-m-horizontal_none slds-box slds-p-around_none btnGroups">
+
+                <lightning-layout if:true={isNew}>
+                    <lightning-layout-item alignment-bump="left">
+                        <lightning-button variant="brand" label="Submit for Approval" onclick={handleSubmit}></lightning-button>
+                    </lightning-layout-item>
+                </lightning-layout>
+
+                <lightning-layout if:true={isRejected}>
+                    <lightning-layout-item alignment-bump="left">
+                        <lightning-button variant="brand" label="Re-Submit for Approval"  onclick={handleSubmit}></lightning-button>
+                    </lightning-layout-item>
+                </lightning-layout>
+
+            </div>
+
+            <!-- Approver options -->
+            <div if:true={isManagernSubmitted}
+                class="slds-m-top_x-small slds-m-bottom_medium slds-m-horizontal_none slds-box slds-p-around_none btnGroups">
+                <lightning-layout>
+                    <lightning-layout-item>
+                        <lightning-button variant="success" label="Approve" onclick={handleApproved}></lightning-button>
+                    </lightning-layout-item>
+                    <lightning-layout-item alignment-bump="left">
+                        <lightning-button variant="destructive" label="Reject" onclick={handleRejected} ></lightning-button>
+                    </lightning-layout-item>
+                </lightning-layout>
+            </div>
+        </template>
+
+    </div>
+
+
+
+</template>

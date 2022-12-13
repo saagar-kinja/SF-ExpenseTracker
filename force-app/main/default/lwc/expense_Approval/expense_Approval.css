@@ -1,0 +1,25 @@
+.btnGroups {
+    margin-top: 5px;
+}
+.slds-box{
+    border: 0px;
+}
+[data-status='New'] {
+    background-color: #747474;
+    color:white;
+}
+[data-status='Submitted'] {
+    background-color: #fe9339;
+    color: #181818;
+}
+[data-status='Approved'] {
+    color: #fff;
+    background-color: #2e844a;
+}
+[data-status='Rejected'] {
+    color: #fff;
+    background-color: #ea001e;
+}
+.txtCenter{
+    text-align: center;
+}
