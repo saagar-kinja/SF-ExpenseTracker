@@ -4,7 +4,6 @@
     <columns>NAME</columns>
     <columns>Status__c</columns>
     <columns>Category__c</columns>
-    <columns>Cost_Center__c</columns>
     <columns>Date__c</columns>
     <columns>Amount__c</columns>
     <filterScope>Everything</filterScope>

@@ -33,6 +33,11 @@
         <field>Expense_Request__c.UserManagerID__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>User.Cost_Center__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <hasActivationRequired>false</hasActivationRequired>
     <label>Expense Tracker</label>
     <license>Salesforce</license>
