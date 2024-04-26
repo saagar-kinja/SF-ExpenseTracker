@@ -1,0 +1,231 @@
+Amount,Category,Date,Details,Status
+1000,Travel,2023-05-12,Test2,New
+2000,Travel,2023-12-12,Test,Approved
+5000,Client Visit,2023-07-31,Test1,New
+9000,Travel,2023-06-12,Test2,Approved
+1000,Stationary,2023-10-02,Test3,New
+4000,Client Visit,2023-12-29,Test4,Approved
+8555,Travel,2023-08-11,Test5,New
+3555,WFH Support,2023-06-23,Test6,New
+9955,Medical Expenses,2023-06-07,Test7,Approved
+4111,Stationary,2023-11-28,Test8,Rejected
+232,Medical Expenses,2023-10-29,Test9,Approved
+2541,Travel,2023-03-04,Test10,Rejected
+6569,Stationary,2023-01-25,Test11,New
+955,Medical Expenses,2023-06-19,Test12,New
+788,Client Visit,2023-06-10,Test13,Approved
+425,Client Visit,2023-06-26,Test14,New
+1000,WFH Support,2023-11-22,Test15,Approved
+2000,Stationary,2023-09-22,Test16,New
+5000,Client Visit,2023-06-28,Test17,Approved
+9000,Medical Expenses,2023-12-25,Test18,Approved
+1000,Travel,2023-09-24,Test19,New
+4000,Client Visit,2023-10-04,Test20,Rejected
+8555,Travel,2023-06-22,Test21,Approved
+3555,WFH Support,2023-02-01,Test22,New
+9955,Travel,2023-08-18,Test23,New
+4111,Client Visit,2023-03-11,Test24,Approved
+232,Travel,2023-07-16,Test25,New
+2541,Medical Expenses,2023-07-27,Test26,New
+6569,Medical Expenses,2023-01-29,Test27,Rejected
+955,Client Visit,2023-03-30,Test28,New
+788,Travel,2023-02-19,Test29,Approved
+425,Medical Expenses,2023-12-27,Test30,New
+120,Client Visit,2023-03-31,Test31,New
+256,Stationary,2023-06-06,Test32,New
+1445,Stationary,2023-12-22,Test33,Rejected
+2693,Client Visit,2023-04-17,Test34,Rejected
+120,Medical Expenses,2023-04-17,Test35,Approved
+256,Medical Expenses,2023-07-14,Test36,Approved
+1445,Stationary,2023-04-09,Test37,Approved
+2693,Stationary,2023-06-28,Test38,New
+2000,Travel,2023-10-31,Test39,Approved
+5000,Client Visit,2023-10-22,Test40,New
+9000,Stationary,2023-04-29,Test41,Rejected
+1000,Stationary,2023-09-19,Test42,Approved
+4000,Travel,2023-04-04,Test43,Approved
+8555,Stationary,2023-01-22,Test44,Approved
+3555,Medical Expenses,2023-09-17,Test45,New
+9955,Client Visit,2023-04-14,Test46,Rejected
+4111,Medical Expenses,2023-05-28,Test47,Rejected
+232,Client Visit,2023-06-27,Test48,Approved
+2541,Travel,2023-06-28,Test49,Approved
+6569,Travel,2023-01-27,Test50,Rejected
+955,Client Visit,2023-09-12,Test51,Approved
+788,Medical Expenses,2023-08-29,Test52,New
+425,Client Visit,2023-01-13,Test53,Rejected
+1000,Stationary,2023-12-24,Test54,New
+2000,Travel,2023-11-10,Test55,Approved
+5000,WFH Support,2023-04-12,Test56,Approved
+9000,Travel,2023-08-02,Test57,New
+1000,WFH Support,2023-04-21,Test58,New
+4000,WFH Support,2023-05-20,Test59,Rejected
+8555,WFH Support,2023-08-24,Test60,Approved
+3555,Stationary,2023-09-15,Test61,Approved
+9955,Stationary,2023-06-04,Test62,Rejected
+4111,WFH Support,2023-07-04,Test63,Approved
+232,Travel,2023-01-21,Test64,Approved
+2541,Travel,2023-08-23,Test65,Rejected
+6569,Travel,2023-07-22,Test66,Approved
+955,Stationary,2023-07-19,Test67,Rejected
+788,Travel,2023-02-23,Test68,New
+425,Stationary,2023-09-10,Test69,New
+120,Travel,2023-11-13,Test70,Approved
+256,Stationary,2023-11-11,Test71,Rejected
+2000,Client Visit,2023-02-25,Test72,New
+5000,WFH Support,2023-02-03,Test73,Rejected
+9000,Client Visit,2023-12-26,Test74,Rejected
+2000,Stationary,2023-07-22,Test75,Rejected
+5000,Medical Expenses,2023-03-25,Test76,Rejected
+9000,Client Visit,2023-02-14,Test77,New
+1000,Client Visit,2023-08-27,Test78,New
+4000,Travel,2023-10-21,Test79,Rejected
+8555,Travel,2023-08-12,Test80,Rejected
+3555,Travel,2023-09-18,Test81,Rejected
+9955,Medical Expenses,2023-08-12,Test82,Rejected
+4111,Client Visit,2023-05-21,Test83,Rejected
+232,Stationary,2023-07-15,Test84,Rejected
+2541,Travel,2023-10-28,Test85,Rejected
+6569,WFH Support,2023-04-21,Test86,Approved
+955,WFH Support,2023-04-11,Test87,Rejected
+788,Medical Expenses,2023-11-26,Test88,Approved
+425,Travel,2023-04-07,Test89,Rejected
+1000,WFH Support,2023-10-30,Test90,Rejected
+2000,Client Visit,2023-11-18,Test91,Approved
+5000,Client Visit,2023-08-31,Test92,Rejected
+9000,Travel,2023-05-28,Test93,Rejected
+1000,Stationary,2023-07-04,Test94,Rejected
+4000,Client Visit,2023-11-28,Test95,Approved
+8555,WFH Support,2023-05-02,Test96,Rejected
+3555,Stationary,2023-04-28,Test97,Approved
+9955,Travel,2023-05-17,Test98,Rejected
+4111,WFH Support,2023-10-16,Test99,Rejected
+232,Travel,2023-02-19,Test100,Rejected
+2541,Client Visit,2023-01-12,Test101,Rejected
+6569,Client Visit,2023-03-24,Test102,Rejected
+955,Client Visit,2023-10-28,Test103,Approved
+788,WFH Support,2023-06-20,Test104,Approved
+425,WFH Support,2023-09-12,Test105,Rejected
+120,Client Visit,2023-11-28,Test106,Rejected
+256,Client Visit,2023-12-11,Test107,Approved
+1445,Stationary,2023-01-02,Test108,Approved
+2693,Stationary,2023-12-08,Test109,Rejected
+120,Stationary,2023-05-12,Test110,Rejected
+256,Travel,2023-06-23,Test111,Approved
+1445,Travel,2023-08-06,Test112,Rejected
+2693,Client Visit,2023-12-01,Test113,Approved
+1000,Travel,2023-05-12,Test2,Rejected
+2000,Travel,2023-12-12,Test,Approved
+5000,Client Visit,2023-07-31,Test1,Rejected
+9000,Travel,2023-06-12,Test2,Approved
+1000,Stationary,2023-10-02,Test3,Rejected
+4000,Client Visit,2023-12-29,Test4,Approved
+8555,Travel,2023-08-11,Test5,Rejected
+3555,WFH Support,2023-06-23,Test6,Rejected
+9955,Medical Expenses,2023-06-07,Test7,Approved
+4111,Stationary,2023-11-28,Test8,Rejected
+232,Medical Expenses,2023-10-29,Test9,Approved
+2541,Travel,2023-03-04,Test10,Rejected
+6569,Stationary,2023-01-25,Test11,Rejected
+955,Medical Expenses,2023-06-19,Test12,Rejected
+788,Client Visit,2023-06-10,Test13,Approved
+425,Client Visit,2023-06-26,Test14,Rejected
+1000,WFH Support,2023-11-22,Test15,Approved
+2000,Stationary,2023-09-22,Test16,Rejected
+5000,Client Visit,2023-06-28,Test17,Approved
+9000,Medical Expenses,2023-12-25,Test18,Approved
+1000,Travel,2023-09-24,Test19,Rejected
+4000,Client Visit,2023-10-04,Test20,Rejected
+8555,Travel,2023-06-22,Test21,Approved
+3555,WFH Support,2023-02-01,Test22,Rejected
+9955,Travel,2023-08-18,Test23,Rejected
+4111,Client Visit,2023-03-11,Test24,Approved
+232,Travel,2023-07-16,Test25,Rejected
+2541,Medical Expenses,2023-07-27,Test26,Rejected
+6569,Medical Expenses,2023-01-29,Test27,Rejected
+955,Client Visit,2023-03-30,Test28,Rejected
+788,Travel,2023-02-19,Test29,Approved
+425,Medical Expenses,2023-12-27,Test30,Rejected
+120,Client Visit,2023-03-31,Test31,Rejected
+256,Stationary,2023-06-06,Test32,Rejected
+1445,Stationary,2023-12-22,Test33,Rejected
+2693,Client Visit,2023-04-17,Test34,Rejected
+120,Medical Expenses,2023-04-17,Test35,Approved
+256,Medical Expenses,2023-07-14,Test36,Approved
+1445,Stationary,2023-04-09,Test37,Approved
+2693,Stationary,2023-06-28,Test38,Rejected
+2000,Travel,2023-10-31,Test39,Approved
+5000,Client Visit,2023-10-22,Test40,Rejected
+9000,Stationary,2023-04-29,Test41,Rejected
+1000,Stationary,2023-09-19,Test42,Approved
+4000,Travel,2023-04-04,Test43,Approved
+8555,Stationary,2023-01-22,Test44,Approved
+3555,Medical Expenses,2023-09-17,Test45,Rejected
+9955,Client Visit,2023-04-14,Test46,Rejected
+4111,Medical Expenses,2023-05-28,Test47,Rejected
+232,Client Visit,2023-06-27,Test48,Approved
+2541,Travel,2023-06-28,Test49,Approved
+6569,Travel,2023-01-27,Test50,Rejected
+955,Client Visit,2023-09-12,Test51,Approved
+788,Medical Expenses,2023-08-29,Test52,Rejected
+425,Client Visit,2023-01-13,Test53,Rejected
+1000,Stationary,2023-12-24,Test54,Rejected
+2000,Travel,2023-11-10,Test55,Approved
+5000,WFH Support,2023-04-12,Test56,Approved
+9000,Travel,2023-08-02,Test57,Rejected
+1000,WFH Support,2023-04-21,Test58,Rejected
+4000,WFH Support,2023-05-20,Test59,Rejected
+8555,WFH Support,2023-08-24,Test60,Approved
+3555,Stationary,2023-09-15,Test61,Approved
+9955,Stationary,2023-06-04,Test62,Rejected
+4111,WFH Support,2023-07-04,Test63,Approved
+232,Travel,2023-01-21,Test64,Approved
+2541,Travel,2023-08-23,Test65,Rejected
+6569,Travel,2023-07-22,Test66,Approved
+955,Stationary,2023-07-19,Test67,Rejected
+788,Travel,2023-02-23,Test68,Rejected
+425,Stationary,2023-09-10,Test69,Rejected
+120,Travel,2023-11-13,Test70,Approved
+256,Stationary,2023-11-11,Test71,Rejected
+2000,Client Visit,2023-02-25,Test72,Rejected
+5000,WFH Support,2023-02-03,Test73,Rejected
+9000,Client Visit,2023-12-26,Test74,Rejected
+2000,Stationary,2023-07-22,Test75,Rejected
+5000,Medical Expenses,2023-03-25,Test76,Rejected
+9000,Client Visit,2023-02-14,Test77,Rejected
+1000,Client Visit,2023-08-27,Test78,Rejected
+4000,Travel,2023-10-21,Test79,Rejected
+8555,Travel,2023-08-12,Test80,Rejected
+3555,Travel,2023-09-18,Test81,Rejected
+9955,Medical Expenses,2023-08-12,Test82,Rejected
+4111,Client Visit,2023-05-21,Test83,Rejected
+232,Stationary,2023-07-15,Test84,Rejected
+2541,Travel,2023-10-28,Test85,Rejected
+6569,WFH Support,2023-04-21,Test86,Approved
+955,WFH Support,2023-04-11,Test87,Rejected
+788,Medical Expenses,2023-11-26,Test88,Approved
+425,Travel,2023-04-07,Test89,Rejected
+1000,WFH Support,2023-10-30,Test90,Rejected
+2000,Client Visit,2023-11-18,Test91,Approved
+5000,Client Visit,2023-08-31,Test92,Rejected
+9000,Travel,2023-05-28,Test93,Rejected
+1000,Stationary,2023-07-04,Test94,Rejected
+4000,Client Visit,2023-11-28,Test95,Approved
+8555,WFH Support,2023-05-02,Test96,Rejected
+3555,Stationary,2023-04-28,Test97,Approved
+9955,Travel,2023-05-17,Test98,Rejected
+4111,WFH Support,2023-10-16,Test99,Rejected
+232,Travel,2023-02-19,Test100,Rejected
+2541,Client Visit,2023-01-12,Test101,Rejected
+6569,Client Visit,2023-03-24,Test102,Rejected
+955,Client Visit,2023-10-28,Test103,Approved
+788,WFH Support,2023-06-20,Test104,Approved
+425,WFH Support,2023-09-12,Test105,Rejected
+120,Client Visit,2023-11-28,Test106,Rejected
+256,Client Visit,2023-12-11,Test107,Approved
+1445,Stationary,2023-01-02,Test108,Approved
+2693,Stationary,2023-12-08,Test109,Rejected
+120,Stationary,2023-05-12,Test110,Rejected
+256,Travel,2023-06-23,Test111,Approved
+1445,Travel,2023-08-06,Test112,Rejected
+2693,Client Visit,2023-12-01,Test113,Approved
