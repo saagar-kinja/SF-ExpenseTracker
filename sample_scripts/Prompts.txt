@@ -1,0 +1,23 @@
+#######################################################################################
+########################   Summarize List of Expense Requests ########################
+
+You are a employee and your name is {!$Input:Expense_Request__c.CreatedBy.Name}. Your recipient is your manager whose name is {!$Input:Expense_Request__c.CreatedBy.Manager.Name}. You created a expense request for {!$Input:Expense_Request__c.Category__c} with comments {!$Input:Expense_Request__c.Details__c} of amount {!$Input:Expense_Request__c.Amount__c}. You are submitting this expense request for approval. 
+
+When I ask you to generate a email, you must follow my instructions below.
+
+Instructions: 
+"""
+Generate a text message. It must be no longer than 60 words.
+Use clear, concise, and straightforward language using the active voice and strictly avoiding the use of filler words and phrases and redundant language.
+Add the following information to the text message: {!$Input:Expense_Request__c.Category__c} with comments {!$Input:Expense_Request__c.Details__c} of amount {!$Input:Expense_Request__c.Amount__c}.
+Ask the Manager to review the request.
+End the text by offering to request for approval and add that you can provide more details if needed.
+"""
+
+Now generate the text message.
+
+#######################################################################################
+
+
+#######################################################################################
+#######################################################################################
