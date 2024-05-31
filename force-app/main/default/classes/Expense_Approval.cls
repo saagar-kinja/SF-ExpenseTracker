@@ -36,12 +36,7 @@ public class Expense_Approval {
         public String result;
     }
 
-
     
-
-
-
-
     @AuraEnabled 
     public static rtnResult submitforApproval(id expId){
         rtnResult rtn = new rtnResult();
