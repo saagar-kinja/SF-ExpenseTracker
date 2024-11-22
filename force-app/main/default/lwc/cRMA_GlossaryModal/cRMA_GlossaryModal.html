@@ -1,0 +1,335 @@
+<template>
+    <lightning-button variant="success" label={btntitle} title={btntitle} onclick={showModalBox}>
+    </lightning-button>
+
+    <!-- modal start -->
+    <template if:true={isShowModal}>
+
+        <section role="dialog" tabindex="-1" aria-labelledby="modal-heading-01" aria-modal="true"
+            aria-describedby="modal-content-id-1" class="slds-modal slds-fade-in-open">
+            <div class="slds-modal__container">
+                <!-- modal header start -->
+                <header class="slds-modal__header">
+                    <button class="slds-button slds-button_icon slds-modal__close slds-button_icon-inverse"
+                        title="Close" onclick={hideModalBox}>
+                        <lightning-icon icon-name="utility:close" alternative-text="close" variant="inverse"
+                            size="small"></lightning-icon>
+                        <span class="slds-assistive-text">Close</span>
+                    </button>
+                    <h2 id="modal-heading-01" class="slds-text-heading_medium slds-hyphenate">{title}</h2>
+                </header>
+
+                <!-- modal body start -->
+                <div class="slds-modal__content slds-p-around_medium" id="modal-content-id-1">
+                    <div class="demo-only" style="padding:10px;">
+                        <ul class="slds-has-dividers_around-space">
+                            <li class="slds-item">
+                                <article class="slds-tile slds-tile_board">
+                                    <h3 class="slds-tile__title slds-truncate" title="Anypoint Connectors">
+                                        <a href="#">Field1</a>
+                                    </h3>
+                                    <div class="slds-tile__detail">
+                                        <p class="slds-text-heading_medium" style="margin-bottom:4px;">Integer</p>
+                                        <p class="slds-truncate" title="Company One" style="margin-bottom:4px;">
+                                            <a href="#">FieldAPIName</a>
+                                        </p>
+                                        <p class="slds-truncate" title="Closing 9/30/201 5" style="margin-bottom:4px;">This is a simple field</p>
+                                    </div>
+                                </article>
+                            </li>
+                            <li class="slds-item">
+                                <article class="slds-tile slds-tile_board">
+                                    <h3 class="slds-tile__title slds-truncate" title="Anypoint Connectors">
+                                        <a href="#">Field1</a>
+                                    </h3>
+                                    <div class="slds-tile__detail">
+                                        <p class="slds-text-heading_medium" style="margin-bottom:4px;">Integer</p>
+                                        <p class="slds-truncate" title="Company One" style="margin-bottom:4px;">
+                                            <a href="#">FieldAPIName</a>
+                                        </p>
+                                        <p class="slds-truncate" title="Closing 9/30/201 5" style="margin-bottom:4px;">This is a simple field</p>
+                                    </div>
+                                </article>
+                            </li>
+                            <li class="slds-item">
+                                <article class="slds-tile slds-tile_board">
+                                    <h3 class="slds-tile__title slds-truncate" title="Anypoint Connectors">
+                                        <a href="#">Field1</a>
+                                    </h3>
+                                    <div class="slds-tile__detail">
+                                        <p class="slds-text-heading_medium" style="margin-bottom:4px;">Integer</p>
+                                        <p class="slds-truncate" title="Company One" style="margin-bottom:4px;">
+                                            <a href="#">FieldAPIName</a>
+                                        </p>
+                                        <p class="slds-truncate" title="Closing 9/30/201 5" style="margin-bottom:4px;">This is a simple field</p>
+                                    </div>
+                                </article>
+                            </li>
+                            <li class="slds-item">
+                                <article class="slds-tile slds-tile_board">
+                                    <h3 class="slds-tile__title slds-truncate" title="Anypoint Connectors">
+                                        <a href="#">Field1</a>
+                                    </h3>
+                                    <div class="slds-tile__detail">
+                                        <p class="slds-text-heading_medium" style="margin-bottom:4px;">Integer</p>
+                                        <p class="slds-truncate" title="Company One" style="margin-bottom:4px;">
+                                            <a href="#">FieldAPIName</a>
+                                        </p>
+                                        <p class="slds-truncate" title="Closing 9/30/201 5" style="margin-bottom:4px;">This is a simple field</p>
+                                    </div>
+                                </article>
+                            </li>
+                            <li class="slds-item">
+                                <article class="slds-tile slds-tile_board">
+                                    <h3 class="slds-tile__title slds-truncate" title="Anypoint Connectors">
+                                        <a href="#">Field1</a>
+                                    </h3>
+                                    <div class="slds-tile__detail">
+                                        <p class="slds-text-heading_medium" style="margin-bottom:4px;">Integer</p>
+                                        <p class="slds-truncate" title="Company One" style="margin-bottom:4px;">
+                                            <a href="#">FieldAPIName</a>
+                                        </p>
+                                        <p class="slds-truncate" title="Closing 9/30/201 5" style="margin-bottom:4px;">This is a simple field</p>
+                                    </div>
+                                </article>
+                            </li>
+                            <li class="slds-item">
+                                <article class="slds-tile slds-tile_board">
+                                    <h3 class="slds-tile__title slds-truncate" title="Anypoint Connectors">
+                                        <a href="#">Field1</a>
+                                    </h3>
+                                    <div class="slds-tile__detail">
+                                        <p class="slds-text-heading_medium" style="margin-bottom:4px;">Integer</p>
+                                        <p class="slds-truncate" title="Company One" style="margin-bottom:4px;">
+                                            <a href="#">FieldAPIName</a>
+                                        </p>
+                                        <p class="slds-truncate" title="Closing 9/30/201 5" style="margin-bottom:4px;">This is a simple field</p>
+                                    </div>
+                                </article>
+                            </li>
+                            <li class="slds-item">
+                                <article class="slds-tile slds-tile_board">
+                                    <h3 class="slds-tile__title slds-truncate" title="Anypoint Connectors">
+                                        <a href="#">Field1</a>
+                                    </h3>
+                                    <div class="slds-tile__detail">
+                                        <p class="slds-text-heading_medium" style="margin-bottom:4px;">Integer</p>
+                                        <p class="slds-truncate" title="Company One" style="margin-bottom:4px;">
+                                            <a href="#">FieldAPIName</a>
+                                        </p>
+                                        <p class="slds-truncate" title="Closing 9/30/201 5" style="margin-bottom:4px;">This is a simple field</p>
+                                    </div>
+                                </article>
+                            </li>
+                            <li class="slds-item">
+                                <article class="slds-tile slds-tile_board">
+                                    <h3 class="slds-tile__title slds-truncate" title="Anypoint Connectors">
+                                        <a href="#">Field1</a>
+                                    </h3>
+                                    <div class="slds-tile__detail">
+                                        <p class="slds-text-heading_medium" style="margin-bottom:4px;">Integer</p>
+                                        <p class="slds-truncate" title="Company One" style="margin-bottom:4px;">
+                                            <a href="#">FieldAPIName</a>
+                                        </p>
+                                        <p class="slds-truncate" title="Closing 9/30/201 5" style="margin-bottom:4px;">This is a simple field</p>
+                                    </div>
+                                </article>
+                            </li>
+                            <li class="slds-item">
+                                <article class="slds-tile slds-tile_board">
+                                    <h3 class="slds-tile__title slds-truncate" title="Anypoint Connectors">
+                                        <a href="#">Field1</a>
+                                    </h3>
+                                    <div class="slds-tile__detail">
+                                        <p class="slds-text-heading_medium" style="margin-bottom:4px;">Integer</p>
+                                        <p class="slds-truncate" title="Company One" style="margin-bottom:4px;">
+                                            <a href="#">FieldAPIName</a>
+                                        </p>
+                                        <p class="slds-truncate" title="Closing 9/30/201 5" style="margin-bottom:4px;">This is a simple field</p>
+                                    </div>
+                                </article>
+                            </li>
+                            <li class="slds-item">
+                                <article class="slds-tile slds-tile_board">
+                                    <h3 class="slds-tile__title slds-truncate" title="Anypoint Connectors">
+                                        <a href="#">Field1</a>
+                                    </h3>
+                                    <div class="slds-tile__detail">
+                                        <p class="slds-text-heading_medium" style="margin-bottom:4px;">Integer</p>
+                                        <p class="slds-truncate" title="Company One" style="margin-bottom:4px;">
+                                            <a href="#">FieldAPIName</a>
+                                        </p>
+                                        <p class="slds-truncate" title="Closing 9/30/201 5" style="margin-bottom:4px;">This is a simple field</p>
+                                    </div>
+                                </article>
+                            </li>
+                            <li class="slds-item">
+                                <article class="slds-tile slds-tile_board">
+                                    <h3 class="slds-tile__title slds-truncate" title="Anypoint Connectors">
+                                        <a href="#">Field1</a>
+                                    </h3>
+                                    <div class="slds-tile__detail">
+                                        <p class="slds-text-heading_medium" style="margin-bottom:4px;">Integer</p>
+                                        <p class="slds-truncate" title="Company One" style="margin-bottom:4px;">
+                                            <a href="#">FieldAPIName</a>
+                                        </p>
+                                        <p class="slds-truncate" title="Closing 9/30/201 5" style="margin-bottom:4px;">This is a simple field</p>
+                                    </div>
+                                </article>
+                            </li>
+                            <li class="slds-item">
+                                <article class="slds-tile slds-tile_board">
+                                    <h3 class="slds-tile__title slds-truncate" title="Anypoint Connectors">
+                                        <a href="#">Field1</a>
+                                    </h3>
+                                    <div class="slds-tile__detail">
+                                        <p class="slds-text-heading_medium" style="margin-bottom:4px;">Integer</p>
+                                        <p class="slds-truncate" title="Company One" style="margin-bottom:4px;">
+                                            <a href="#">FieldAPIName</a>
+                                        </p>
+                                        <p class="slds-truncate" title="Closing 9/30/201 5" style="margin-bottom:4px;">This is a simple field</p>
+                                    </div>
+                                </article>
+                            </li>
+                            <li class="slds-item">
+                                <article class="slds-tile slds-tile_board">
+                                    <h3 class="slds-tile__title slds-truncate" title="Anypoint Connectors">
+                                        <a href="#">Field1</a>
+                                    </h3>
+                                    <div class="slds-tile__detail">
+                                        <p class="slds-text-heading_medium" style="margin-bottom:4px;">Integer</p>
+                                        <p class="slds-truncate" title="Company One" style="margin-bottom:4px;">
+                                            <a href="#">FieldAPIName</a>
+                                        </p>
+                                        <p class="slds-truncate" title="Closing 9/30/201 5" style="margin-bottom:4px;">This is a simple field</p>
+                                    </div>
+                                </article>
+                            </li>
+                            <li class="slds-item">
+                                <article class="slds-tile slds-tile_board">
+                                    <h3 class="slds-tile__title slds-truncate" title="Anypoint Connectors">
+                                        <a href="#">Field1</a>
+                                    </h3>
+                                    <div class="slds-tile__detail">
+                                        <p class="slds-text-heading_medium" style="margin-bottom:4px;">Integer</p>
+                                        <p class="slds-truncate" title="Company One" style="margin-bottom:4px;">
+                                            <a href="#">FieldAPIName</a>
+                                        </p>
+                                        <p class="slds-truncate" title="Closing 9/30/201 5" style="margin-bottom:4px;">This is a simple field</p>
+                                    </div>
+                                </article>
+                            </li>
+                            <li class="slds-item">
+                                <article class="slds-tile slds-tile_board">
+                                    <h3 class="slds-tile__title slds-truncate" title="Anypoint Connectors">
+                                        <a href="#">Field1</a>
+                                    </h3>
+                                    <div class="slds-tile__detail">
+                                        <p class="slds-text-heading_medium" style="margin-bottom:4px;">Integer</p>
+                                        <p class="slds-truncate" title="Company One" style="margin-bottom:4px;">
+                                            <a href="#">FieldAPIName</a>
+                                        </p>
+                                        <p class="slds-truncate" title="Closing 9/30/201 5" style="margin-bottom:4px;">This is a simple field</p>
+                                    </div>
+                                </article>
+                            </li>
+                            <li class="slds-item">
+                                <article class="slds-tile slds-tile_board">
+                                    <h3 class="slds-tile__title slds-truncate" title="Anypoint Connectors">
+                                        <a href="#">Field1</a>
+                                    </h3>
+                                    <div class="slds-tile__detail">
+                                        <p class="slds-text-heading_medium" style="margin-bottom:4px;">Integer</p>
+                                        <p class="slds-truncate" title="Company One" style="margin-bottom:4px;">
+                                            <a href="#">FieldAPIName</a>
+                                        </p>
+                                        <p class="slds-truncate" title="Closing 9/30/201 5" style="margin-bottom:4px;">This is a simple field</p>
+                                    </div>
+                                </article>
+                            </li>
+                            <li class="slds-item">
+                                <article class="slds-tile slds-tile_board">
+                                    <h3 class="slds-tile__title slds-truncate" title="Anypoint Connectors">
+                                        <a href="#">Field1</a>
+                                    </h3>
+                                    <div class="slds-tile__detail">
+                                        <p class="slds-text-heading_medium" style="margin-bottom:4px;">Integer</p>
+                                        <p class="slds-truncate" title="Company One" style="margin-bottom:4px;">
+                                            <a href="#">FieldAPIName</a>
+                                        </p>
+                                        <p class="slds-truncate" title="Closing 9/30/201 5" style="margin-bottom:4px;">This is a simple field</p>
+                                    </div>
+                                </article>
+                            </li>
+                            <li class="slds-item">
+                                <article class="slds-tile slds-tile_board">
+                                    <h3 class="slds-tile__title slds-truncate" title="Anypoint Connectors">
+                                        <a href="#">Field1</a>
+                                    </h3>
+                                    <div class="slds-tile__detail">
+                                        <p class="slds-text-heading_medium" style="margin-bottom:4px;">Integer</p>
+                                        <p class="slds-truncate" title="Company One" style="margin-bottom:4px;">
+                                            <a href="#">FieldAPIName</a>
+                                        </p>
+                                        <p class="slds-truncate" title="Closing 9/30/201 5" style="margin-bottom:4px;">This is a simple field</p>
+                                    </div>
+                                </article>
+                            </li>
+                            <li class="slds-item">
+                                <article class="slds-tile slds-tile_board">
+                                    <h3 class="slds-tile__title slds-truncate" title="Anypoint Connectors">
+                                        <a href="#">Field1</a>
+                                    </h3>
+                                    <div class="slds-tile__detail">
+                                        <p class="slds-text-heading_medium" style="margin-bottom:4px;">Integer</p>
+                                        <p class="slds-truncate" title="Company One" style="margin-bottom:4px;">
+                                            <a href="#">FieldAPIName</a>
+                                        </p>
+                                        <p class="slds-truncate" title="Closing 9/30/201 5" style="margin-bottom:4px;">This is a simple field</p>
+                                    </div>
+                                </article>
+                            </li>
+                            <li class="slds-item">
+                                <article class="slds-tile slds-tile_board">
+                                    <h3 class="slds-tile__title slds-truncate" title="Anypoint Connectors">
+                                        <a href="#">Field1</a>
+                                    </h3>
+                                    <div class="slds-tile__detail">
+                                        <p class="slds-text-heading_medium" style="margin-bottom:4px;">Integer</p>
+                                        <p class="slds-truncate" title="Company One" style="margin-bottom:4px;">
+                                            <a href="#">FieldAPIName</a>
+                                        </p>
+                                        <p class="slds-truncate" title="Closing 9/30/201 5" style="margin-bottom:4px;">This is a simple field</p>
+                                    </div>
+                                </article>
+                            </li>
+                            <li class="slds-item">
+                                <article class="slds-tile slds-tile_board">
+                                    <h3 class="slds-tile__title slds-truncate" title="Anypoint Connectors">
+                                        <a href="#">Field1</a>
+                                    </h3>
+                                    <div class="slds-tile__detail">
+                                        <p class="slds-text-heading_medium" style="margin-bottom:4px;">Integer</p>
+                                        <p class="slds-truncate" title="Company One" style="margin-bottom:4px;">
+                                            <a href="#">FieldAPIName</a>
+                                        </p>
+                                        <p class="slds-truncate" title="Closing 9/30/201 5" style="margin-bottom:4px;">This is a simple field</p>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- modal footer start-->
+                <footer class="slds-modal__footer">
+                    <button class="slds-button slds-button_neutral" onclick={hideModalBox}>Cancel</button>
+                </footer>
+
+            </div>
+        </section>
+        <div class="slds-backdrop slds-backdrop_open"></div>
+    </template>
+    <!-- modal end -->
+
+</template>
