@@ -1,6 +1,6 @@
 public with sharing class Expense_Request_Insert {
    
-    @InvocableMethod(label='Create Expense Request' description='Creates a new Expense Request for Universal Containers. Requires Amount, Category, Date, and Details. Returns the new Record ID.' category='Expense_Request__c')
+    @InvocableMethod(label='Create Expense Request' description='This creates a new Expense Request record. It accepts Amount, Date, Category and Details for a Expense Request and insert the record in system. It returns a status message, if the insert was successfully or not' category='Expense_Request__c')
     public static List<Results> insertExpenseRequest(List<Requests> rqs){
         
         Decimal expsenseAmount; String expsenseCategory; Date expsenseDate; String expsenseDetails;

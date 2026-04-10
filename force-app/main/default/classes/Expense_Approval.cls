@@ -1,7 +1,7 @@
 public class Expense_Approval {
     
     
-    @InvocableMethod(label='Submit Expense for Approval' description='Submits an existing Expense Request to the manager for formal approval. Requires the Expense Request Record ID.' category='Expense_Request__c')
+    @InvocableMethod(label='Submit Expense for Approval' description='This accepts record id of a Expense Request and submits it for approval. And return result of the submission. ' category='Expense_Request__c')
     public static List<Results> submitforApproval(List<Requests> rqs){
 
         String expId;

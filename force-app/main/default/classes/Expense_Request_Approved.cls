@@ -1,6 +1,6 @@
 public with sharing class Expense_Request_Approved {
    
-    @InvocableMethod(label='Approve Expense Request' description='Approves an existing Expense Request. Only the authorized manager can do this. Requires the Expense Request Record ID.' category='Expense_Request__c')
+    @InvocableMethod(label='Approve Expense Request' description='This accepts record id of a Expense Request and approve the expense request. And return result of the approval. ' category='Expense_Request__c')
     public static List<Results> approveExpenseRequest(List<Requests> rqs){
 
         String expId;

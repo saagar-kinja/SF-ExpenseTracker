@@ -1,6 +1,6 @@
 public with sharing class Expense_Approval_Email {
 
-    @InvocableMethod(label='Email Expense Approver' description='Sends an email notification to the manager alerting them of a pending Expense Request. Requires the managers email and a message body.' category='Expense_Request__c')
+    @InvocableMethod(label='Email Expense Approver' description='This sends email to approver for Expense Request Approval. It accepts email id address for approver and message details as input and sends email to approver. It returns a status message, if the email was sent successfully or not' category='Expense_Request__c')
     public static List<Results> sendEmailForApproval(List<Requests> rqs){
         
         String Email; String Body;
